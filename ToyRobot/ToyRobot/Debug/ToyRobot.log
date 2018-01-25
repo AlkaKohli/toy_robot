@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  ToyRobot.cpp
+  shape_square.cpp
+  shape_base.cpp
+  robot_simulator.cpp
+  Generating Code...
+  ToyRobot.vcxproj -> E:\Australia\REA test\REA_toy_robot_v5\toy-robot\ToyRobot\Debug\ToyRobot.exe
