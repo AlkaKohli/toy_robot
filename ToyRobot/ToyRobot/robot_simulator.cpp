@@ -233,13 +233,13 @@ void robot_simulator::display_report()
 {
 	//int dirIndex = (static_cast<int> (m_facing_direction)) / ROTATION_ANGLE - 1;
 	//cout << enDirectionNames[dirIndex] << endl;
-	cout << "The position of the robot is (" << m_x_coordinate << " ," << m_y_coordinate << ") ";
+	cout << "The position of the robot is (" << m_x_coordinate << " ," << m_y_coordinate << ") facing ";
 	cout << enDirectionNames[m_facing_direction] << endl;
 }
 
 bool robot_simulator::is_placed_ontable()
 {
-	return m_onTable;
+	return this->m_onTable;
 }
 
 

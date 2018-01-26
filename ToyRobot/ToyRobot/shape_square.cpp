@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include "shape_square.h"
 
-#define DEFAULT_SIZE 5
-
 
 shape_square::shape_square()
 {

@@ -1,6 +1,8 @@
 #pragma once
 #include "shape_base.h"
 
+#define DEFAULT_SIZE 5
+
 class shape_square : public shape_base
 {
 	private:
