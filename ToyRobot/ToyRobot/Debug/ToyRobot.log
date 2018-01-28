@@ -1,5 +1,7 @@
 ﻿  stdafx.cpp
   ToyRobot.cpp
+e:\2alka\study\2 c- c++\zpractise\test git\toyrobot\toyrobot\toyrobot.cpp(152): warning C4101: 'ia': unreferenced local variable
+e:\2alka\study\2 c- c++\zpractise\test git\toyrobot\toyrobot\toyrobot.cpp(178): warning C4101: 'ia': unreferenced local variable
   shape_square.cpp
   shape_base.cpp
   robot_simulator.cpp

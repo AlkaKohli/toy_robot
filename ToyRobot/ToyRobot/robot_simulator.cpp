@@ -67,7 +67,7 @@ void robot_simulator::set_direction(char facingDirection)
 	}
 }
 
-robot_simulator::robot_simulator(float xPosition, float yPosition, char facingDirection, bool validPos)
+robot_simulator::robot_simulator(int xPosition, int yPosition, char facingDirection, bool validPos)
 {
 	m_onTable = validPos;
 	m_x_coordinate = xPosition;
@@ -81,7 +81,7 @@ robot_simulator::~robot_simulator()
 
 }
 
-void robot_simulator::set_place(float xPosition, float yPosition, char facingDirection, bool isValidPos)
+void robot_simulator::set_place(int xPosition, int yPosition, char facingDirection, bool isValidPos)
 {
 	m_x_coordinate = xPosition;
 	m_y_coordinate = yPosition;
@@ -90,13 +90,13 @@ void robot_simulator::set_place(float xPosition, float yPosition, char facingDir
 	set_direction(facingDirection);
 }
 
-void robot_simulator::move_robot(float tableLength)
+void robot_simulator::move_robot(int tableLength)
 {
 	move_robot(tableLength, tableLength);
 }
 
 
-void robot_simulator::move_robot(float tableLength, float tableWidth)
+void robot_simulator::move_robot(int tableLength, int tableWidth)
 {
 	if (m_onTable == true)
 	{
